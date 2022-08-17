@@ -1,0 +1,55 @@
+body
+{
+    background-color: rgb(255, 162, 0);
+}
+
+h1
+{
+    color: rgb(73, 13, 48);
+    background-color: cornsilk;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+canvas
+{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 150px;
+    animation-iteration-count: infinite;
+}
+
+#sketch_drawn
+{
+    color: rgb(255, 247, 0);
+    border: black;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px rgb(33, 7, 75);}
+    to{box-shadow: 1px 1px 38px rgb(101, 42, 211);}
+}
+
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+#timer
+{
+    font-size: 25px;
+    float: right;
+}
+
+#score
+{
+    font-size: 25px;
+    float: left;
+}
